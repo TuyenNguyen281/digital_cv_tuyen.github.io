@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  .nav-bar-3 > .nav-name,
+  .nav-title {
+    display: none;
+  }
+
+  .content--2 {
+    justify-content: left;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  /* -------------------Certificate--------------------------- */
+  .certificate--1 {
+    display: fex;
+    border-right: solid 1px #d6c08d;
+    flex-direction: column;
+    padding: 0 10px 0 0 !important;
+  }
+  .certificate--2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+  }
+  .certificate--3 {
+    grid-column: 1/-1;
+    display: flex;
+    border-top: solid 1px #d6c08d;
+    flex-direction: column;
+    padding: 40px 0 0 0 !important;
+  }
+  .certificate--img img {
+    width: 180px;
+    height: auto;
+  }
+  .certificate--content {
+    margin-top: 4%;
+  }
+
+  /* ----------Project------------ */
+
+  .project--describe {
+    display: block;
+  }
+}

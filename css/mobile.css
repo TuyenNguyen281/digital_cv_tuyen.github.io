@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+  /* ------------------Navbar----------- */
+  .nav {
+    justify-content: left;
+    align-items: center;
+    border-left: none;
+  }
+
+  .nav-bar-3 {
+    display: none;
+  }
+  .nav-bar-2,
+  .nav-bar-5 {
+    border-right: none;
+  }
+  .nav-bar-1,
+  .nav-bar-2,
+  .nav-bar-4 {
+    border-bottom: 1px solid #a59e9ea8;
+  }
+
+  .content--2 {
+    justify-content: left;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  /* ------Certificate-------------------- */
+  .certificate--1 {
+    border-bottom: solid 1px #d6c08d;
+    border-right: none !important;
+  }
+  .certificate--2 {
+    margin-left: 5px;
+  }
+}
